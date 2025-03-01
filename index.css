@@ -1,3 +1,12 @@
+/* 添加分割线样式 */
+.comparisons-desktop table tr {
+    border-bottom: 2px solid #ccc; /* 设置分割线的颜色和粗细 */
+}
+
+/* 去掉最后一行的分割线 */
+.comparisons-desktop table tr:last-child {
+    border-bottom: none;
+}
 
 :root {
     --blue: #007bff;
